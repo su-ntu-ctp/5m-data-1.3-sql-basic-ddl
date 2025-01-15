@@ -1,4 +1,4 @@
-### 3.1 Create tables with constraints
+# Lesson Solution
 
 ```sql
 CREATE TABLE lesson.students (
@@ -11,10 +11,19 @@ CREATE TABLE lesson.students (
 );
 ```
 
-### 5.2 Updating data
+```sql
+UPDATE lesson.students
+SET email = 'linda.g@example.com'
+WHERE name = 'Linda Garcia';
+```
 
 ```sql
 UPDATE lesson.students
 SET email = 'linda.g@example.com'
 WHERE name = 'Linda Garcia';
+```
+
+```sql
+COPY (SELECT * FROM lesson.teachers) TO 'teachers_new.csv' WITH (HEADER 1, DELIMITER '|');
+COPY (SELECT * FROM lesson.teachers) TO 'teachers.json';
 ```
