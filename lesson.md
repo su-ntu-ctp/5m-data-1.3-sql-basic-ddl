@@ -20,7 +20,7 @@ For this lesson, we'll use **DuckDB**, a lightweight, in-process SQL database en
 
 ---
 
-### 🟢 Option 1: Use Pre-Created DuckDB File
+### 🟢 Use Pre-Created DuckDB File
 
 1. Open **DBeaver**.
 2. Use the DuckDB file provided in this repo:  
@@ -36,7 +36,7 @@ For this lesson, we'll use **DuckDB**, a lightweight, in-process SQL database en
 
 ---
 
-### ⚙️ Option 2: Create the DuckDB File Yourself
+### ⚙️ (Optional): Create the DuckDB File Yourself
 
 First, set up the DuckDB file, we need to run the following steps:
 
